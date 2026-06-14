@@ -1,0 +1,30 @@
+# Upstream HAL Source
+
+The files in this directory are a vendor copy of the dsPIC33AK UART HAL.
+
+Upstream repository:
+
+- Repository: https://github.com/sulaolab/dspic33ak-uart-hal
+- Branch: main
+- Source directory: src/
+
+Synchronized into this repository under:
+
+- Destination directory: src/hal_uart/
+
+## Current Synchronized Revision
+
+- Upstream commit: f658b9abef15732354e608f541493e487d20c5bd
+
+Note: this revision currently lives on the upstream `uart-async-transfer-model`
+branch (the asynchronous transfer model + safety checks), pending merge to `main`
+via the upstream pull request. Once that merge lands, re-running the sync tool
+against `main` reproduces the same content.
+
+## Update Policy
+
+The HAL-only repository is the upstream source of truth.
+
+Please apply HAL fixes and HAL feature changes to the upstream HAL repository first, then synchronize this vendor copy.
+
+CMSIS-Driver wrapper changes belong in this repository.
