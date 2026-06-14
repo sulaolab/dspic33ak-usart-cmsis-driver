@@ -110,7 +110,7 @@ CMSIS-Driver wrapper changes should be made in this repository.
 ## License
 
 The original dsPIC33AK UART CMSIS-Driver wrapper code in this repository is
-licensed under the MIT License. See `LICENSE`.
+licensed under the MIT No Attribution License (MIT-0). See `LICENSE`.
 
 The vendored ARM CMSIS-Driver headers under
 `third_party/arm_cmsis_driver/` are provided by ARM under the Apache License
