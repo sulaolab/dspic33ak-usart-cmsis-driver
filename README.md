@@ -1,4 +1,4 @@
-# dspic33ak-uart-cmsis-driver
+# dspic33ak-usart-cmsis-driver
 
 CMSIS-Driver USART wrapper package for the dsPIC33AK UART HAL.
 
