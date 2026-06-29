@@ -5,7 +5,7 @@ The files in this directory are a vendor copy of the dsPIC33AK UART HAL.
 Upstream repository:
 
 - Repository: https://github.com/sulaolab/dspic33ak-uart-hal
-- Branch: add-rx-start-clean
+- Branch: main
 - Source directory: src/
 
 Synchronized into this repository under:
@@ -14,9 +14,9 @@ Synchronized into this repository under:
 
 ## Current Synchronized Revision
 
-- Upstream commit: 06306232330ac3cd36756254f9e51d3ad36636b9
+- Upstream commit: ef455afe37179ab7fbbf447442dd0f730be172a2
 
-This revision is synchronized from the upstream `add-rx-start-clean` branch.
+This revision is synchronized from the upstream `main` branch.
 
 ## Update Policy
 
