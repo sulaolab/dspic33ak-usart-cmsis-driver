@@ -5,7 +5,7 @@ The files in this directory are a vendor copy of the dsPIC33AK UART HAL.
 Upstream repository:
 
 - Repository: https://github.com/sulaolab/dspic33ak-uart-hal
-- Branch: fix/uart-irq-ifs2-ak128
+- Branch: main
 - Source directory: src/
 
 Synchronized into this repository under:
@@ -16,7 +16,7 @@ Synchronized into this repository under:
 
 - Upstream commit: 26d18306c0e721b8c73070e19921b11e3ac470d4
 
-This revision is synchronized from the upstream `fix/uart-irq-ifs2-ak128` branch.
+This revision is synchronized from the upstream `main` branch.
 
 ## Update Policy
 
