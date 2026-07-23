@@ -4,7 +4,7 @@ The files in this directory are a vendor copy of the dsPIC33AK UART HAL.
 
 Upstream repository:
 
-- Repository: https://github.com/sulaolab/dspic33ak-uart-hal
+- Repository: https://github.com/sulaolab/dspic33ak-hal-uart
 - Branch: main
 - Source directory: src/
 

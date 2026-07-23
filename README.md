@@ -40,7 +40,7 @@ third_party/
 
 The HAL vendor copy has been imported from:
 
-- https://github.com/sulaolab/dspic33ak-uart-hal
+- https://github.com/sulaolab/dspic33ak-hal-uart
 
 The CMSIS-Driver wrapper files are provided under `cmsis_driver/`.
 
@@ -100,7 +100,7 @@ python tools/sync_hal_from_upstream.py
 
 The HAL-only repository is the upstream source of truth:
 
-- https://github.com/sulaolab/dspic33ak-uart-hal
+- https://github.com/sulaolab/dspic33ak-hal-uart
 
 HAL fixes should be applied to the upstream HAL repository first, then synchronized into this repository.
 

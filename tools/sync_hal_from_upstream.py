@@ -12,7 +12,7 @@ import tempfile
 from pathlib import Path
 
 
-UPSTREAM_REPO = "https://github.com/sulaolab/dspic33ak-uart-hal.git"
+UPSTREAM_REPO = "https://github.com/sulaolab/dspic33ak-hal-uart.git"
 UPSTREAM_BRANCH = os.environ.get("DSPIC33AK_UART_HAL_BRANCH", "main")
 UPSTREAM_SOURCE_DIR = "src"
 DESTINATION_DIR = "src/hal_uart"
@@ -128,7 +128,7 @@ def main() -> int:
 
     print(
         "Synchronized HAL from "
-        f"sulaolab/dspic33ak-uart-hal @ {upstream_commit}"
+        f"sulaolab/dspic33ak-hal-uart @ {upstream_commit}"
     )
     return 0
 
